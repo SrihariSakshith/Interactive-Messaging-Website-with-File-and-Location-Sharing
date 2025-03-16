@@ -1,30 +1,59 @@
-# chat-app-with-node-js-and-socket.io-and-user-location-sharing-as-well
-This is a real time chat app build in node-js using express as middle-ware and Socket.io is used for real time notifications. It has also a feature that user can share their location with each other.
+# Interactive Messaging Website with File and Location Sharing
 
-Live Web App Link: https://real-time-chat-app-huzaifa8580.herokuapp.com/
+## Description
+This project is a chat application that supports real-time messaging, file sharing, and location sharing. It is designed to provide an interactive and seamless communication experience.
 
-1) Download project
-2) Open terminal and enter npm install
-3) npm start
-4) open browser and enter localhost:3000 
-5) Enter your Display name and a room no
-6) Open another broswer and open localhost:3000 and add another user eg Steve but add the same room no.
-7) now add the user with same room no can chat with each other.
-8) for security and privacy reasons we do not save the messages when the session is terminated all the data is deleted.  
+## Features
+- Real-time Messaging: Send and receive messages instantly.
+- File Sharing: Share files with other users.
+- Location Sharing: Share your current location with other users.
 
-The project will be live on port 3000 
+## Technologies Used
+- JavaScript (61.4%)
+- HTML (21.4%)
+- CSS (17.2%)
 
-Project Screen Shots 
+## Installation
+To run this project locally, follow these steps:
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SrihariSakshith/Interactive-Messaging-Website-with-File-and-Location-Sharing.git
+   cd Interactive-Messaging-Website-with-File-and-Location-Sharing
+   ```
 
-Chat Room with huzaifa and Steve.
-![](Chat-app.png)
+2. **Install dependencies**
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, install the required dependencies.
+   ```bash
+   npm install
+   ```
 
+3. **Start the application**
+   ```bash
+   npm start
+   ```
 
+4. **Open your browser**
+   Navigate to `http://localhost:3000` to see the application in action.
 
+## Usage
+- **Messaging**: Use the chat interface to send and receive messages.
+- **File Sharing**: Click on the file icon to upload and send files.
+- **Location Sharing**: Click on the location icon to share your current location.
 
+## Contributing
+Contributions are welcome! Please follow these steps:
 
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
 
-When user click on location sent from other user.
-![](location-sharing.png)
+## Contact
+For any questions or suggestions, feel free to reach out:
 
+- **GitHub**: [SrihariSakshith](https://github.com/SrihariSakshith)
+
+---
+
+Thank you for using our interactive messaging website. We hope it enhances your communication experience!
